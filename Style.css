@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+:single-button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #105efa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #b2b0b0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#race-track {
+    height: 200px;
+    width: 600px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfbfb;
+}
+
+#car1 {
+    width: 40px;
+    height: 20px;
+    background-color: #e7ad02;
+    bottom: 0;
+}
+#car2 {
+    width: 40px;
+    height: 20px;
+    background-color: #105efa;
+    bottom: 0;
+
+}
+#car3 {
+    width: 40px;
+    height: 20px;
+    background-color: #cd3000;
+    bottom: 0;
+}
+#car4 {
+    width: 40px;
+    height: 20px;
+    background-color: #013a0f;  
+    bottom: 0;
+}
+#car5 {
+    width: 40px;
+    height: 20px;
+    background-color: #820054c0;
+    bottom: 0;
+}
+#controls {
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
